@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "tv",
+      "filename" : "Billboard_Topshelf_1920x720.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

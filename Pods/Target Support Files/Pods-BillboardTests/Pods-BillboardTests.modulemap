@@ -1,0 +1,6 @@
+framework module Pods_BillboardTests {
+  umbrella header "Pods-BillboardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6054E7081BD645E0E65C0A5B /* Pods_BillboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFBB0D938B7D2700D3A71E7 /* Pods_BillboardTests.framework */; };
+		909A8A6420F7A94F00F60B40 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A8A6320F7A94F00F60B40 /* UIColor.swift */; };
+		90AACD6220F7D6EF00CE2760 /* WatermarkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AACD6120F7D6EF00CE2760 /* WatermarkImage.swift */; };
+		AF3767961EDDE96700498CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3767951EDDE96700498CC7 /* AppDelegate.swift */; };
+		AF3767981EDDE96700498CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3767971EDDE96700498CC7 /* ViewController.swift */; };
+		AF37679B1EDDE96700498CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3767991EDDE96700498CC7 /* Main.storyboard */; };
+		AF37679D1EDDE96700498CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF37679C1EDDE96700498CC7 /* Assets.xcassets */; };
+		AF3767A81EDDE96700498CC7 /* BillboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3767A71EDDE96700498CC7 /* BillboardTests.swift */; };
+		AF99DED61F7070DC00D7FFE3 /* Billboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99DECF1F7070DC00D7FFE3 /* Billboard.swift */; };
+		AF99DED71F7070DC00D7FFE3 /* BillboardConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99DED01F7070DC00D7FFE3 /* BillboardConstants.swift */; };
+		AF99DED81F7070DC00D7FFE3 /* BillboardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99DED11F7070DC00D7FFE3 /* BillboardImage.swift */; };
+		AF99DED91F7070DC00D7FFE3 /* ExampleAppConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = AF99DED21F7070DC00D7FFE3 /* ExampleAppConfig.xml */; };
+		AF99DEDA1F7070DC00D7FFE3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99DED31F7070DC00D7FFE3 /* Image.swift */; };
+		AF99DEDC1F7070DC00D7FFE3 /* Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99DED51F7070DC00D7FFE3 /* Watermark.swift */; };
+		C43F7095DEE2CE7F170B59C2 /* Pods_Billboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BDBB56BEDDC016A6CABE66 /* Pods_Billboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3767A41EDDE96700498CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF37678A1EDDE96700498CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF3767911EDDE96700498CC7;
+			remoteInfo = Billboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFBB0D938B7D2700D3A71E7 /* Pods_BillboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41118ADEDB27F12107CE7401 /* Pods-Billboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Billboard/Pods-Billboard.release.xcconfig"; sourceTree = "<group>"; };
+		56C09780F31A3B184E3E58F3 /* Pods-BillboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BillboardTests/Pods-BillboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72A9F9B004B1954D1BE43294 /* Pods-Billboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Billboard/Pods-Billboard.debug.xcconfig"; sourceTree = "<group>"; };
+		909A8A6320F7A94F00F60B40 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		90AACD6120F7D6EF00CE2760 /* WatermarkImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkImage.swift; sourceTree = "<group>"; };
+		A7BDBB56BEDDC016A6CABE66 /* Pods_Billboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Billboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3767921EDDE96700498CC7 /* Billboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3767951EDDE96700498CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3767971EDDE96700498CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF37679A1EDDE96700498CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF37679C1EDDE96700498CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF37679E1EDDE96700498CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3767A31EDDE96700498CC7 /* BillboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3767A71EDDE96700498CC7 /* BillboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardTests.swift; sourceTree = "<group>"; };
+		AF3767A91EDDE96700498CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF99DECF1F7070DC00D7FFE3 /* Billboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Billboard.swift; sourceTree = "<group>"; };
+		AF99DED01F7070DC00D7FFE3 /* BillboardConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillboardConstants.swift; sourceTree = "<group>"; };
+		AF99DED11F7070DC00D7FFE3 /* BillboardImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillboardImage.swift; sourceTree = "<group>"; };
+		AF99DED21F7070DC00D7FFE3 /* ExampleAppConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ExampleAppConfig.xml; sourceTree = "<group>"; };
+		AF99DED31F7070DC00D7FFE3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AF99DED51F7070DC00D7FFE3 /* Watermark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
+		E810F29B8CF0371F495ADA1C /* Pods-BillboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BillboardTests/Pods-BillboardTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF37678F1EDDE96700498CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43F7095DEE2CE7F170B59C2 /* Pods_Billboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3767A01EDDE96700498CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6054E7081BD645E0E65C0A5B /* Pods_BillboardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66224280B663415942480416 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A9F9B004B1954D1BE43294 /* Pods-Billboard.debug.xcconfig */,
+				41118ADEDB27F12107CE7401 /* Pods-Billboard.release.xcconfig */,
+				56C09780F31A3B184E3E58F3 /* Pods-BillboardTests.debug.xcconfig */,
+				E810F29B8CF0371F495ADA1C /* Pods-BillboardTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		982EBDC573163CAF42DBB1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BDBB56BEDDC016A6CABE66 /* Pods_Billboard.framework */,
+				1DFBB0D938B7D2700D3A71E7 /* Pods_BillboardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3767891EDDE96700498CC7 = {
+			isa = PBXGroup;
+			children = (
+				AF3767941EDDE96700498CC7 /* Billboard */,
+				AF3767A61EDDE96700498CC7 /* BillboardTests */,
+				AF3767931EDDE96700498CC7 /* Products */,
+				66224280B663415942480416 /* Pods */,
+				982EBDC573163CAF42DBB1CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3767931EDDE96700498CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3767921EDDE96700498CC7 /* Billboard.app */,
+				AF3767A31EDDE96700498CC7 /* BillboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3767941EDDE96700498CC7 /* Billboard */ = {
+			isa = PBXGroup;
+			children = (
+				AF99DECF1F7070DC00D7FFE3 /* Billboard.swift */,
+				AF99DED01F7070DC00D7FFE3 /* BillboardConstants.swift */,
+				AF99DED21F7070DC00D7FFE3 /* ExampleAppConfig.xml */,
+				AF99DED31F7070DC00D7FFE3 /* Image.swift */,
+				AF99DED11F7070DC00D7FFE3 /* BillboardImage.swift */,
+				90AACD6120F7D6EF00CE2760 /* WatermarkImage.swift */,
+				AF99DED51F7070DC00D7FFE3 /* Watermark.swift */,
+				909A8A6320F7A94F00F60B40 /* UIColor.swift */,
+				AF3767951EDDE96700498CC7 /* AppDelegate.swift */,
+				AF3767971EDDE96700498CC7 /* ViewController.swift */,
+				AF3767991EDDE96700498CC7 /* Main.storyboard */,
+				AF37679C1EDDE96700498CC7 /* Assets.xcassets */,
+				AF37679E1EDDE96700498CC7 /* Info.plist */,
+			);
+			path = Billboard;
+			sourceTree = "<group>";
+		};
+		AF3767A61EDDE96700498CC7 /* BillboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3767A71EDDE96700498CC7 /* BillboardTests.swift */,
+				AF3767A91EDDE96700498CC7 /* Info.plist */,
+			);
+			path = BillboardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3767911EDDE96700498CC7 /* Billboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3767AC1EDDE96700498CC7 /* Build configuration list for PBXNativeTarget "Billboard" */;
+			buildPhases = (
+				585DBF65505103346DE187A1 /* [CP] Check Pods Manifest.lock */,
+				AF37678E1EDDE96700498CC7 /* Sources */,
+				AF37678F1EDDE96700498CC7 /* Frameworks */,
+				AF3767901EDDE96700498CC7 /* Resources */,
+				1400F0396A4B98389EDAD31C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Billboard;
+			productName = Billboard;
+			productReference = AF3767921EDDE96700498CC7 /* Billboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF3767A21EDDE96700498CC7 /* BillboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3767AF1EDDE96700498CC7 /* Build configuration list for PBXNativeTarget "BillboardTests" */;
+			buildPhases = (
+				25A41F19F1E509802A8C3283 /* [CP] Check Pods Manifest.lock */,
+				AF37679F1EDDE96700498CC7 /* Sources */,
+				AF3767A01EDDE96700498CC7 /* Frameworks */,
+				AF3767A11EDDE96700498CC7 /* Resources */,
+				7BFF7CDD01ADD6C7F0D54178 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3767A51EDDE96700498CC7 /* PBXTargetDependency */,
+			);
+			name = BillboardTests;
+			productName = BillboardTests;
+			productReference = AF3767A31EDDE96700498CC7 /* BillboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF37678A1EDDE96700498CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jamf;
+				TargetAttributes = {
+					AF3767911EDDE96700498CC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+					};
+					AF3767A21EDDE96700498CC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+						TestTargetID = AF3767911EDDE96700498CC7;
+					};
+				};
+			};
+			buildConfigurationList = AF37678D1EDDE96700498CC7 /* Build configuration list for PBXProject "Billboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3767891EDDE96700498CC7;
+			productRefGroup = AF3767931EDDE96700498CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3767911EDDE96700498CC7 /* Billboard */,
+				AF3767A21EDDE96700498CC7 /* BillboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3767901EDDE96700498CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF37679D1EDDE96700498CC7 /* Assets.xcassets in Resources */,
+				AF99DED91F7070DC00D7FFE3 /* ExampleAppConfig.xml in Resources */,
+				AF37679B1EDDE96700498CC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3767A11EDDE96700498CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1400F0396A4B98389EDAD31C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Billboard/Pods-Billboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ManagedAppConfigLib/ManagedAppConfigLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManagedAppConfigLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billboard/Pods-Billboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A41F19F1E509802A8C3283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BillboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585DBF65505103346DE187A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Billboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFF7CDD01ADD6C7F0D54178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BillboardTests/Pods-BillboardTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ManagedAppConfigLib/ManagedAppConfigLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManagedAppConfigLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BillboardTests/Pods-BillboardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF37678E1EDDE96700498CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF99DEDC1F7070DC00D7FFE3 /* Watermark.swift in Sources */,
+				AF3767981EDDE96700498CC7 /* ViewController.swift in Sources */,
+				AF99DEDA1F7070DC00D7FFE3 /* Image.swift in Sources */,
+				AF99DED81F7070DC00D7FFE3 /* BillboardImage.swift in Sources */,
+				909A8A6420F7A94F00F60B40 /* UIColor.swift in Sources */,
+				AF99DED61F7070DC00D7FFE3 /* Billboard.swift in Sources */,
+				AF3767961EDDE96700498CC7 /* AppDelegate.swift in Sources */,
+				AF99DED71F7070DC00D7FFE3 /* BillboardConstants.swift in Sources */,
+				90AACD6220F7D6EF00CE2760 /* WatermarkImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF37679F1EDDE96700498CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3767A81EDDE96700498CC7 /* BillboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF3767A51EDDE96700498CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF3767911EDDE96700498CC7 /* Billboard */;
+			targetProxy = AF3767A41EDDE96700498CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF3767991EDDE96700498CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF37679A1EDDE96700498CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3767AA1EDDE96700498CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		AF3767AB1EDDE96700498CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3767AD1EDDE96700498CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A9F9B004B1954D1BE43294 /* Pods-Billboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Billboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamfsoftware.research.Billboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AF3767AE1EDDE96700498CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41118ADEDB27F12107CE7401 /* Pods-Billboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Billboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamfsoftware.research.Billboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AF3767B01EDDE96700498CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C09780F31A3B184E3E58F3 /* Pods-BillboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BillboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamfsoftware.research.BillboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billboard.app/Billboard";
+			};
+			name = Debug;
+		};
+		AF3767B11EDDE96700498CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E810F29B8CF0371F495ADA1C /* Pods-BillboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BillboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamfsoftware.research.BillboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billboard.app/Billboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF37678D1EDDE96700498CC7 /* Build configuration list for PBXProject "Billboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3767AA1EDDE96700498CC7 /* Debug */,
+				AF3767AB1EDDE96700498CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3767AC1EDDE96700498CC7 /* Build configuration list for PBXNativeTarget "Billboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3767AD1EDDE96700498CC7 /* Debug */,
+				AF3767AE1EDDE96700498CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3767AF1EDDE96700498CC7 /* Build configuration list for PBXNativeTarget "BillboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3767B01EDDE96700498CC7 /* Debug */,
+				AF3767B11EDDE96700498CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF37678A1EDDE96700498CC7 /* Project object */;
+}

@@ -1,0 +1,71 @@
+<dict>
+	<key>com.jamf.config.image.duration</key>
+	<real>7</real>
+	
+	<key>com.jamf.config.watermark.url</key>
+	<string>https://resources.jamf.com/images/logos/Jamf-color.png</string>
+	
+	<key>com.jamf.config.watermark.location</key>
+	<string>top_right</string>
+	
+	<key>com.jamf.config.watermark.margin.x</key>
+	<real>10</real>
+	
+	<key>com.jamf.config.watermark.margin.y</key>
+	<real>10</real>
+	
+	<key>com.jamf.config.watermark.alpha</key>
+	<real>0.5</real>
+	
+	<key>com.jamf.config.background.color</key>
+	<string>#FFFFFF</string>
+	
+	<key>com.jamf.config.images</key>
+	<array>
+		<dict>
+			<key>com.jamf.config.image.url</key>
+			<string>https://s-media-cache-ak0.pinimg.com/originals/e1/7c/36/e17c367cd4f8b99aae00a1f82f5e0910.jpg</string>
+			
+			<key>com.jamf.config.image.duration</key>
+			<real>2</real>
+			
+			<key>com.jamf.config.watermark.location</key>
+			<string>bottom_right</string>
+		</dict>
+		
+		<dict>
+			<key>com.jamf.config.image.url</key>
+			<string>https://freeyork.org/wp-content/uploads/2013/10/Stunning-Landscape-Wallpapers-2.jpg</string>
+			
+			<key>com.jamf.config.image.duration</key>
+			<real>10</real>
+			
+			<key>com.jamf.config.watermark.location</key>
+			<string>top_right</string>
+		</dict>
+		
+		<dict>
+			<key>com.jamf.config.image.url</key>
+			<string>https://i.ytimg.com/vi/O4LnO-7byC0/maxresdefault.jpg</string>
+			
+			<key>com.jamf.config.image.duration</key>
+			<real>5</real>
+			
+			<key>com.jamf.config.watermark.location</key>
+			<string>top_left</string>
+		</dict>
+		
+		<dict>
+			<key>com.jamf.config.image.url</key>
+			<string>https://images5.alphacoders.com/473/thumb-1920-473154.jpg</string>
+		</dict>
+		
+		<dict>
+			<key>com.jamf.config.image.url</key>
+			<string>https://i.stack.imgur.com/QoLJ5.jpg</string>
+			
+			<key>com.jamf.config.watermark.location</key>
+			<string>hidden</string>
+		</dict>
+	</array>
+</dict>

@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (5.0.0)
+  - ManagedAppConfigLib (1.0.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - ManagedAppConfigLib
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - ManagedAppConfigLib
+
+SPEC CHECKSUMS:
+  Kingfisher: 2b0dd651e4fe5a07305b8242fde56f8e2d410f58
+  ManagedAppConfigLib: ba5324ddebb748d77e60d49a8e1900424b9fca9d
+
+PODFILE CHECKSUM: db5cd85a1fba38f179f556500758ab1609ffa6e8
+
+COCOAPODS: 1.5.3
