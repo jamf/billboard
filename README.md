@@ -1,6 +1,8 @@
 
 # Jamf Billboard
 
+Additional documentation can be found on [Jamf Nation](https://www.jamf.com/jamf-nation/articles/541/configuring-jamf-billboard-using-jamf-pro)
+
 Jamf Billboard is a tvOS app that cycles through a defined group of images 
 on Apple TV devices with tvOS 12.0 or later that are managed by Jamf Pro. 
 It can also display a watermark in the corners of the screen.
